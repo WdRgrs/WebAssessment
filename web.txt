@@ -1,0 +1,18 @@
+How does the internet work?
+
+The internet is a network that connects myriad computers and servers to each other in various ways - hard lines / wifi etc.
+There are many smaller networks that together combine to make the internet as a whole (ISP's, local networks etc.)
+Smaller computers and personal devices (clients) connect to these smaller networks (ISP's) and gain access to the overall internet and servers through these ISP's.
+Every machine connected to the internet has a unique identity in the form of a IP address (numerical identification). 
+Clients send requests to various servers via ISP, and in turn receive various media as a result.. messages, videos, files etc.
+These files are broken up into smaller pieces called 'packets' for easier distribution between machines and are put back together by specific programs on said machine.  
+
+
+What happens when you click a link?
+When you click a link, the browser you are using identifies the IP address for the hostname/domain name and any other specifics, such as resources(specific pages) etc.
+
+The browser sends a http request to a server
+
+The server sends back an http response and begins fulfilling your request (depending upon what you clicked)
+
+First the browser will render HTML and then load other embedded objects/languages (javascript functionality or pictures/videos etc).
